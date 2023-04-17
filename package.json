@@ -1,0 +1,27 @@
+{
+  "name": "cursojavi apis",
+  "version": "1.0.0",
+  "description": "productos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+    
+  },
+  "keywords": [],
+  "author": "Robin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.2.1",
+    "sequelize": "^6.31.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.4",
+    "nodemon": "^2.0.22"
+  }
+}
