@@ -12,10 +12,9 @@ export const obtenerProductosPorId = async (req, res) => {
 
 export const crearProducto = async (req, res) => {
   console.log(req.body);
-  const crearProducto = await Product.create(req.body);
+   await Product.create(req.body);
 
   res.json({mensaje: "Producto creado"})
-  res.json(crearProducto);
 };
 
 export const actualizarProductoPorId = async (req, res) => {

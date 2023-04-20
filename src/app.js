@@ -3,9 +3,13 @@ const app = express();
 
 import pj from "../package.json";
 import routes from "./routes/routes";
+import cors from 'cors'
+
+
 const morgan = require('morgan')
 app.use(morgan('tiny'))
 app.set('pj', pj)
+app.use(cors())
 
 app.use(express.json()) 
 
