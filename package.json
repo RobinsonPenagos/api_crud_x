@@ -4,7 +4,7 @@
   "description": "productos",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node src/index.js",
+    "start": "sudo babel-node src/index.js",
     "dev": "nodemon src/index.js --exec babel-node"
   },
   "keywords": [],
